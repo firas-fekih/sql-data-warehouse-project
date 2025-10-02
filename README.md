@@ -103,10 +103,6 @@ data-warehouse-project/
 ---
 
 
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
-
 ## 🌟 About Me
 
 Hi there! I'm **Firas Fekih**. I’m an Analytics Engineer who transforms complex data into actionable insights, building scalable solutions that empower smarter decision-making!
