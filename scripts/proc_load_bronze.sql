@@ -17,12 +17,11 @@ Usage Example:
 ===============================================================================
 */
 
-USE DataWarehouse;
-GO
-
+/*
 IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'bronze')
     EXEC('CREATE SCHEMA bronze;');
 GO
+*/
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
@@ -147,3 +146,5 @@ BEGIN
 		PRINT '=========================================='
 	END CATCH
 END
+
+-- EXEC bronze.load_bronze
